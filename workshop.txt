@@ -1,5 +1,5 @@
 version=1
-id=3164114351
+id=3271303304
 title=Game Night: Spiffo's Trading Cards
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
 description=[h3]Includes 22 trading cards from your favorite fast food restaurant![/h3]
@@ -9,8 +9,9 @@ description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubuserconten
 description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
-description=Utilized [url=https://github.com/AUTOMATIC1111/stable-diffusion-webui]AUTOMATIC1111/stable-diffusion-webui[/url], as well as a [url=https://civitai.com/models/441039/spiffo-or-project-zomboid]Spiffo LoRA[/url], to generate jumping off boards to the card art.
-description=For full transparency/clarity, here is an example, the left being the original output of the AI model, and the right being my edits and graphical additions.
+description=[h3]Utilized [url=https://github.com/AUTOMATIC1111/stable-diffusion-webui]stable-diffusion[/url], as well as a [url=https://civitai.com/models/441039/spiffo-or-project-zomboid]Spiffo LoRA[/url]:[/h3]
+description=[b]For full transparency/clarity, SD was used to create solid foundations to work off of, and speed up the workflow. Below is an example, the left being the original output of the AI model, and the right being my edits and graphical additions.[/b]
+description=
 description=[img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night-spiffoTC/main/images/example.png[/img]
 description=
 description=
