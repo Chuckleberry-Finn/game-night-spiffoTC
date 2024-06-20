@@ -12,4 +12,23 @@ local spiffoCards = {
     "CHEF", "CONSTRUCTION WORKER"
 }
 deckActionHandler.addDeck("SpiffoCards", spiffoCards)
-gamePieceAndBoardHandler.registerSpecial("Base.SpiffoCards", { actions = {examine=true}, examineScale = 1, textureSize = {176,250} })
+gamePieceAndBoardHandler.registerSpecial("Base.SpiffoCards", { applyCards = "applyCardForSpiffo", actions = {examine=true}, examineScale = 1, textureSize = {176,250} })
+
+
+
+function applyItemDetails.applyCardForSpiffo(item)
+    if not item:getModData()["gameNight_cardDeck"] then
+
+        local stack = ZombRand(3)+1
+        local cards = {}
+
+        for i=1, stack do
+            local card = spiffoCards[ZombRand(#spiffoCards)+1]
+            table.insert(cards, card)
+        end
+
+        item:getModData()["gameNight_cardDeck"] = cards
+        item:getModData()["gameNight_cardFlipped"] = {}
+        for i=1, #cards do item:getModData()["gameNight_cardFlipped"][i] = true end
+    end
+end
