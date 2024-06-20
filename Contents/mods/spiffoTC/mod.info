@@ -1,0 +1,5 @@
+name=Game Night - Spiffo's Trading Cards
+id=gamenight_spiffoTC
+description=
+poster=poster.png
+require=gamenight

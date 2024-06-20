@@ -1,0 +1,23 @@
+JOB,COUNT,ARTWORK
+UNEMPLOYED,1/22,artwork/unemployed.png
+FIRE OFFICER,2/22,artwork/fire officer.png
+POLICE OFFICER,3/22,artwork/police officer.png
+PARK RANGER,4/22,artwork/park ranger.png
+CONSTRUCTION WORKER,5/22,artwork/construction worker.png
+SECURITY GUARD,6/22,artwork/security guard.png
+CARPENTER,7/22,artwork/carpenter.png
+BURGLAR,8/22,artwork/burglar.png
+CHEF,9/22,artwork/chef.png
+REPAIRMAN,10/22,artwork/repairman.png
+FARMER,11/22,artwork/farmer.png
+FISHERMAN,12/22,artwork/fisherman.png
+DOCTOR,13/22,artwork/doctor.png
+VETERAN,14/22,artwork/veteran.png
+NURSE,15/22,artwork/nurse.png
+LUMBERJACK,16/22,artwork/lumberjack.png
+FITNESS INSTRUCTOR,17/22,artwork/fitness instructor.png
+BURGER FLIPPER,18/22,artwork/burger flipper.png
+ELECTRICIAN,19/22,artwork/electrician.png
+ENGINEER,20/22,artwork/engineer.png
+METALWORKER,21/22,artwork/metalworker.png
+MECHANIC,22/22,artwork/mechanic.png

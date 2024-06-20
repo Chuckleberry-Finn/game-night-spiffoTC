@@ -1,0 +1,4 @@
+module Base
+{
+    model SpiffoCards { mesh = WorldItems/cardpack, texture = Item_SpiffoCards/deckTexture, scale = 0.033, }
+}

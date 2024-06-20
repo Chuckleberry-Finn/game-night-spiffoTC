@@ -1,0 +1,16 @@
+version=1
+id=3164114351
+title=Game Night: Spiffo's Trading Cards
+description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
+description=[h3]Includes 22 trading cards from your favorite fast food restaurant![/h3]
+description=
+description=
+description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+description=
+description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
+description=
+description=Utilized [url=https://github.com/AUTOMATIC1111/stable-diffusion-webui]AUTOMATIC1111/stable-diffusion-webui[/url], as well as a [url=https://civitai.com/models/441039/spiffo-or-project-zomboid]Spiffo LoRA[/url], to generate jumping off boards to the card art.
+description=
+description=[h3]Copyright 2024 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Chuckleberry Finn.[/h3]
+tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
+visibility=public
