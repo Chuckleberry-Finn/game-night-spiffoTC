@@ -12,4 +12,4 @@ local spiffoCards = {
     "CHEF", "CONSTRUCTION WORKER"
 }
 deckActionHandler.addDeck("SpiffoCards", spiffoCards)
-gamePieceAndBoardHandler.registerSpecial("Base.SpiffoCards", { actions = {examine=true}, textureSize = {176,250} })
+gamePieceAndBoardHandler.registerSpecial("Base.SpiffoCards", { actions = {examine=true}, examineScale = 1, textureSize = {176,250} })
