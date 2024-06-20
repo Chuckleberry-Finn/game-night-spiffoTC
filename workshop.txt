@@ -3,7 +3,7 @@ id=3164114351
 title=Game Night: Spiffo's Trading Cards
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
 description=[h3]Includes 22 trading cards from your favorite fast food restaurant![/h3]
-description=[i](They are the 22 Vanilla Professions.)[/i]
+description=[i]They are the 22 Vanilla Professions. Found in the usual places Game Night items can be found, as well as Spiffo's Restaurants.[/i]
 description=
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
 description=
