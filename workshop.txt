@@ -10,9 +10,7 @@ description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
 description=[h3]Utilized [url=https://github.com/AUTOMATIC1111/stable-diffusion-webui]stable-diffusion[/url], as well as a [url=https://civitai.com/models/441039/spiffo-or-project-zomboid]Spiffo LoRA[/url]:[/h3]
-description=[b]For full transparency/clarity, SD was used to create solid foundations to work off of, and speed up the workflow. Below is an example, the left being the original output of the AI model, and the right being my edits and graphical additions.[/b]
-description=
-description=[img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night-spiffoTC/main/images/example.png[/img]
+description=For full transparency/clarity, SD was used to create solid foundations to work off of, and speed up the workflow.
 description=
 description=
 description=[h3]Copyright 2024 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Chuckleberry Finn.[/h3]

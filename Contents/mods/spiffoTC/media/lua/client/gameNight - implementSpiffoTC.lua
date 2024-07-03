@@ -19,7 +19,10 @@ gamePieceAndBoardHandler.registerSpecial("Base.SpiffoCards", { applyCards = "app
 function applyItemDetails.applyCardForSpiffo(item)
     if not item:getModData()["gameNight_cardDeck"] then
 
-        local stack = ZombRand(3)+1
+        local itemCont = item:getContainer()
+        local itemContParent = itemCont:getParent()
+        local zombie = itemContParent and instanceof(itemContParent, "IsoDeadBody")
+        local stack = zombie and 1 or ZombRand(3)+1
         local cards = {}
 
         for i=1, stack do
