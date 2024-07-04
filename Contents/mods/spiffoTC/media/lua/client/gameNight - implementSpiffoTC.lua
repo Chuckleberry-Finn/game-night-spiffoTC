@@ -20,8 +20,8 @@ function applyItemDetails.applyCardForSpiffo(item)
     if not item:getModData()["gameNight_cardDeck"] then
 
         local itemCont = item:getContainer()
-        local itemContParent = itemCont:getParent()
-        local zombie = itemContParent and instanceof(itemContParent, "IsoDeadBody")
+        local zombie = itemCont and (itemCont:getType() == "inventorymale" or itemCont:getType() == "inventoryfemale")
+
         local stack = zombie and 1 or ZombRand(3)+1
         local cards = {}
 
