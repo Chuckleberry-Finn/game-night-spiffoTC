@@ -13,7 +13,7 @@ gameNightDistro.proceduralDistGameNight.itemsToAdd["SpiffoCards"] = {
 
 local addToInsert = {"CrateSpiffoMerch","ServingTrayBurgers", "ServingTrayChickenNuggets",
                      "ServingTrayFries", "ServingTrayOnionRings", "SpiffosDiningCounter",
-                     "SpiffosKitchenBags", "SpiffosKitchenCounter",}
+                     "SpiffosKitchenBags", "SpiffosKitchenSpecial",}
 
 for _,contID in pairs(addToInsert) do
     gameNightDistro.proceduralDistGameNight.listsToInsert[contID] = { generalChance = 0, chanceOverride = {["SpiffoCards"] = 10 } }
