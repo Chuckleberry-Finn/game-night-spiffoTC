@@ -7,6 +7,8 @@ description=[i]They are the 22 Vanilla Professions. Found in the usual places Ga
 description=
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
 description=
+description=[url=https://chuckleberry-finn.github.io/issues/][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/bugHunt.png[/img][/url]
+description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
 description=[h3]Utilized [url=https://github.com/AUTOMATIC1111/stable-diffusion-webui]stable-diffusion[/url], as well as a [url=https://civitai.com/models/441039/spiffo-or-project-zomboid]Spiffo LoRA[/url]:[/h3]
