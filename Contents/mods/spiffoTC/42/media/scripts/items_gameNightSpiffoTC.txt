@@ -1,8 +1,7 @@
 module Base
 {
-    item SpiffoCards
-    {
-        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Prayer Deck, Icon = SpiffoCards/deck, WorldStaticModel = SpiffoCards,
+    item SpiffoCards {
+        DisplayCategory = Deck, Weight = 0.01, ItemType = base:normal,
+        Icon = SpiffoCards/deck, WorldStaticModel = SpiffoCards,
     }
 }

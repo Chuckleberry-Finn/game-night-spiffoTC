@@ -1,6 +1,6 @@
-local applyItemDetails = require "gameNight - applyItemDetails"
+local applyItemDetails = require("gameNight-applyItemDetails.lua")
 local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
+local gamePieceHandler = applyItemDetails.gamePieceHandler
 
 local spiffoCards = {
     "DOCTOR", "ELECTRICIAN", "ENGINEER", "FARMER",
@@ -12,7 +12,7 @@ local spiffoCards = {
     "CHEF", "CONSTRUCTION WORKER"
 }
 deckActionHandler.addDeck("SpiffoCards", spiffoCards)
-gamePieceAndBoardHandler.registerSpecial("Base.SpiffoCards", { applyCards = "applyCardForSpiffo", actions = {examine=true}, examineScale = 1, textureSize = {176,250} })
+gamePieceHandler.registerSpecial("Base.SpiffoCards", { applyCards = "applyCardForSpiffo", actions = {examine=true}, examineScale = 1, textureSize = {176,250} })
 
 
 
