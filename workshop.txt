@@ -15,6 +15,9 @@ description=[h3]Utilized [url=https://github.com/AUTOMATIC1111/stable-diffusion-
 description=For full transparency/clarity, SD was used to create solid foundations to work off of, and speed up the workflow.
 description=
 description=
+description=[url=https://indifferentbroccoli.com/?fpr=chuckleberry][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/refs/heads/main/IB_BANNER/IB_BANNER.gif[/img][/url]
+description=
+description=
 description=[h3]Copyright 2026 Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Chuckleberry Finn.[/h3]
 tags=Build 41;Build 42;Multiplayer;Pop Culture;Silly/Fun
 visibility=public
