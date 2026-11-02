@@ -1,6 +1,5 @@
-local applyItemDetails = require("gameNight-applyItemDetails.lua")
-local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceHandler = applyItemDetails.gamePieceHandler
+local gamePieceHandler = require("gameNight-gamePieceHandler.lua")
+local deckActionHandler = gamePieceHandler.card
 
 local spiffoCards = {
     "DOCTOR", "ELECTRICIAN", "ENGINEER", "FARMER",
@@ -16,7 +15,7 @@ gamePieceHandler.registerSpecial("Base.SpiffoCards", { applyCards = "applyCardFo
 
 
 
-function applyItemDetails.applyCardForSpiffo(item)
+function deckActionHandler.applyCardForSpiffo(item)
     if not item:getModData()["gameNight_cardDeck"] then
 
         local itemCont = item:getContainer()
@@ -35,3 +34,4 @@ function applyItemDetails.applyCardForSpiffo(item)
         for i=1, #cards do item:getModData()["gameNight_cardFlipped"][i] = true end
     end
 end
+deckActionHandler.registerApplyCards("applyCardForSpiffo", deckActionHandler.applyCardForSpiffo)
